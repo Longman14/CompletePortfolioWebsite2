@@ -1,0 +1,116 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+h1{
+text-align: center;
+  background-image: url("https://replit.com/@Taiyoung/CompletePortfolioWebsite2#12315.jpg");
+  padding: 50px;
+  margin: 50px  auto;
+  color: blue;
+    font-family: Helvetica, sans-serif;
+  
+}
+
+header {  
+background-color: orange;  
+position: fixed;  
+left: 0;  
+right: 0;  
+top: 0px;  
+height: 30px;  
+display: flex;  
+align-items: center;  
+box-shadow: 0 0 25px 0 black;  
+}
+
+header * {  
+display: inline;  
+}  
+header li {  
+margin: 20px;  
+}  
+header li a {  
+color: blue;  
+text-decoration: none;  
+}  
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
+
+/* header {
+  background-image: url("https://images.unsplash.com/photo-1614850715649-1d0106293bd1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmFubmVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60");
+  color: white;
+  text-align: center;
+  padding: 1rem;
+} */
+main {
+  background-color: blanchedalmond;
+  padding:10px;
+}
+h3 {
+  text-align: center;
+  margin: 0px;
+  padding: 10px 0px 0px 0px;
+}
+#links {
+  background-color: DarkSalmon;
+  flex-wrap: wrap;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+
+}
+.flexbox-item{
+  width: 200px;
+  margin: 10px;
+  border: 3px solid #333;
+  background-color: blanchedalmond;
+  text-align: center;
+  ;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: minmax(200px, auto);
+  grid-auto-rows: minmax(100px, auto);
+  
+}
+.grid-item{
+  margin: 10px;
+  border: 3px solid #333;
+  background-color: blanchedalmond;
+
+  }
+#grid-item-1{
+  grid-column: 1/ -1;
+}
+
+#grid-item-3{
+  grid-row: span 2;
+}
+#grid-item-5{
+  grid-column: span 2;
+}
+
+@media (max-width: 400px){
+  body{
+    color: blue;
+    font-family: Helvetica, sans-serif;
+  }
+  .grid-container{
+ grid-template-columns: minmax(100px, auto);
+  grid-auto-rows: minmax(100px, auto);
+  }
+}
+h2{
+  text-align: center;
+}
